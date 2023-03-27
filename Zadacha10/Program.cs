@@ -3,3 +3,7 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+Console.Write("Введите трёхзначное число  N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+N = N / 10;
+Console.Write(N % 10);
